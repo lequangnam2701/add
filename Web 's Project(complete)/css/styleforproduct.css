@@ -1,0 +1,154 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.container-main{
+  max-width: 1250px;
+  margin: auto;
+}
+
+
+ .main-sidebar{
+  /* display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap; */
+} 
+
+.img-filter{
+  margin-top: 15px;
+}
+
+
+
+
+#main {
+  padding: 16px;
+}
+
+.main-sidebar-filter a{
+  text-decoration: none;
+  color: black;
+}
+
+/* .main-sidebar-filter{
+  width: 200px;
+  height: 200px;
+} */
+
+.main-sidebar-product{
+  display: flex;
+  justify-content: space-between;
+  
+}
+
+.main-sidebar-products{
+  margin-top:5px; 
+}
+
+.main-sidebar-products a{
+  position: relative;
+  transition: right linear 0.1s;
+  color: rgb(92, 92, 92);
+}
+
+.main-sidebar-products a:hover{
+  right: -4px;
+  color: rgb(159, 159, 159);
+}
+
+.main-products-line-2{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.main-products-line-2-p-strong{
+  font-size: 150%;
+  text-transform: uppercase;
+  margin-top: auto;
+  margin-bottom: auto;
+}
+.main-products-line-2-moreabout{
+  margin-top: auto;
+  margin-bottom: auto;
+  text-decoration: none;
+  background-color: rgb(68, 67, 67);
+  padding: 5px 15px;
+  color: white;
+  border-radius: 15px;  
+}
+.main-products-line-3{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-top: 15px;
+}
+
+
+.main-products-line-3-box1-minibox{
+  padding: 20px 20px;
+  background-color: rgb(231, 231, 231);
+  border-radius: 5px;
+  width: 200px;
+  text-align: center;
+}
+
+.main-products-line-3-box1-minibox-rate{
+  font-size: 120%;
+  color: #fb6e2e;
+  margin-left: 5px;
+  text-align: center;
+}
+
+.main-products-line-3-box1-minibox-rate-small{
+  color: black;
+}
+
+del{
+  color: rgb(173, 173, 173);
+}
+
+.main-products-line-3-box1-minibox-rate-small{
+  font-size:80% ;
+}
+
+.main-products-line-3-box1-minibox-price{
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.main-products-line-3-box1-minibox img{
+  border-radius: 5px;
+}
+
+.main-products-line-3-box1-minibox-info{
+  text-align: center;
+}
+
+.main-products-line-3-box1-minibox-info-none{
+  color: rgb(231, 231, 231);
+}
+
+.main-products-line-3-box1-minibox-price2 h3{
+  font-size: 130%;
+}
+
+.main-products-line-3-box1-minibox-price p{
+  color: #eb5757;
+}
+
+.main-products-line-3-box1-minibox-button{
+  text-align: center;
+  margin-top: 10px;
+}
+.main-products-line-3-box1-minibox-button a{
+  text-decoration: none;
+  color: rgb(238, 238, 238);
+  background-color: rgb(68, 67, 67);
+  padding: 7px 15px;
+  border-radius: 15px;
+}
+
+
+
